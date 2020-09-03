@@ -10,11 +10,11 @@
 using Printf
 using Statistics
 
-# Parametres de l'algorithme genetique
-nPop         = 200   # nombre d'individus (nombre obligatoirement pair)
-nGenerations = 020   # nombre de generations
-probCros     = 0.7   # probabilite de crossover
-probMut      = 0.05   # probabilite de mutation
+# Parametres de l'algorithme genetique; ces parametres DOIVENT etre calibres!
+nPop         = 10   # nombre d'individus (attention : nombre obligatoirement pair)
+nGenerations = 2   # nombre de generations
+probCros     = 0.5   # probabilite de crossover
+probMut      = 0.5   # probabilite de mutation
 
 # Parametres du codage binaire des variables reelles
 lVar         =  15   # nbre de bits codant une variable (=> chromosome de 30 bits)
