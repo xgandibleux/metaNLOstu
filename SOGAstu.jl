@@ -1,7 +1,8 @@
 # Cours      : Metaheuristiques
 # Algorithme : Resolution par AG de la fonction de Shubert
 # Auteur     : Xavier Gandibleux
-# Date       : 2017 - rev aout 2020 pour V1.5
+# Date       : 2017 - rev aout 2020 pour V1.5; 
+#                         octobre 2024 pour etre compliant avec un update de mathplotlib
 
 @static if VERSION < v"1.5-"
            error("NOT COMPLIANT WITH JULIA < v1.5.0")
