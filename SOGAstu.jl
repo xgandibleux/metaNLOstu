@@ -233,7 +233,7 @@ function initplotpop(pop)
     end
     plot_wireframe(xgrid, ygrid, z, linewidth=0.1)
 
-    ax = gca(projection="3d")
+    #ax = gca(projection="3d")
     vx1=[]
     vx2=[]
     vf=[]
