@@ -1,4 +1,13 @@
-# metaNLOstu
-A simple single objective Genetic Algorithm (GA) aiming to find the optimum of a non-linear function.
+# metaGAstu
 
-This implementation is the base of an exercice of the course "metaheuristics".
+Course *metaheuristics*
+
+-----
+
+Various exercises implementing a single objective Genetic Algorithm (GA).
+
+- Folder `NonLinearFunction`
+- Folder `Maze`
+- Folder `NaturalLanguageProcessing`
+
+
