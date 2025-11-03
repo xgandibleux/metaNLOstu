@@ -1,5 +1,8 @@
-# ----------------------------------------------------------------------------------------------------
-# Xavier Gandibleux - Metaheuristiques - Algorithmes genetiques - Probleme du robot dans un labyrinthe
+# Cours      : Metaheuristiques
+# Algorithme : Algorithmes genetiques - Recherche du chemin optimal d'un robot traversant un labyrinthe
+# Auteur     : Xavier Gandibleux
+# Date       : 2020 
+
 
 using Printf
 

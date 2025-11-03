@@ -1,11 +1,13 @@
-# Extraction automatique de resume par algorithme genetique
-# Gandibleux Xavier - 2025
+# Cours      : Metaheuristiques
+# Algorithme : Algorithmes genetiques - Extraction automatique de resume
+# Auteur     : Xavier Gandibleux
+# Date       : 2025 
+
 
 using TextAnalysis
 using Random
 using LinearAlgebra
 using Statistics
-using Plots
 
 # =============================================================================
 # 0) Texte d'entree à resumer (tire de la these de doctorat de Manon Perrignon)
@@ -162,7 +164,6 @@ end
 
 # a mettre en place...
 
-# exemples de commandes utiles
-nPhrases = length(cleaned)   # nombre de phrases dans le texte nettoie
-resume = rand(0:1,nPhrases)  # une solution aleatoire (un resume)
-evaluation = fitness(resume) # fitness d'une solution
+# exemples d'appels utiles
+resume = rand(0:1, length(cleaned))   # une solution aleatoire (un resume)
+evaluation = fitness(resume)          # mesure de fitness d'une solution

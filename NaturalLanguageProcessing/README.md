@@ -1,4 +1,4 @@
-# Metaheuristics and Natural Language Processing
+# Natural Language Processing (student version)
 An example of an application of metaheuristics to the domain of Natural Language Processing. 
 
 In this example, a skeleton of a simple Genetic Algorithm (GA) is designed and implemented in Julia for generating automatically a text summarization by extraction.
