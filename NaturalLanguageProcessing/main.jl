@@ -70,7 +70,7 @@ cleaned = [clean_string(s) for s in sentences]
 
 crps = Corpus(TokenDocument.(cleaned))   # chaque document est TokenDocument{String}
 
-# construire la DTM puis TF-IDF
+# construire la DTM puis TF-IDF (voir : https://cuik.io/blog/lexique-seo/tf-idf-term-frequency-inverse-document-frequency/)
 update_lexicon!(crps)
 dtm = DocumentTermMatrix(crps)           # docs x termes
 tfidf_sparse = tf_idf(dtm)               # tf-idf sparse
@@ -81,7 +81,7 @@ text_vector = vec(mean(tfidf, dims=1))
 
 
 # =============================================================================
-# Similarite cosinus
+# Similarite cosinus (voir : https://medium.com/@santannalouis208/la-similarit%C3%A9-cosinus-en-ia-nlp-d554d3b14efa)
 
 epsval() = eps(Float64)
 function cosine_similarity(a::AbstractVector, b::AbstractVector)
